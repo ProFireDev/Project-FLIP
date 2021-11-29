@@ -1,0 +1,1 @@
+* Change all the icons in The icon folder to the proper logo 

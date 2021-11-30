@@ -1,7 +1,5 @@
 # project-flip Legacy V1 code for reference
 
-**Make sure to enable GitHub Pages in Settings -> Options -> GitHub Pages -> Branch:Main**
-
 
 ## Project setup
 ```

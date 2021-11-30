@@ -27,7 +27,6 @@
     "formulahendry.code-runner",
     "coenraads.bracket-pair-colorizer",
     "formulahendry.auto-rename-tag",
-    "formulahendry.auto-close-tag",
-    "johnsoncodehk.volar"
+    "formulahendry.auto-close-tag"
   ]
 }

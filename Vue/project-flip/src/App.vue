@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view />
+  <router-view /> <!-- This is the router-view
+          if you get an ES lint error message here, its 
+           wrong -->
 </template>
 
 <style lang="scss">
@@ -23,7 +25,7 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: rgb(21, 181, 235);
     }
   }
 }

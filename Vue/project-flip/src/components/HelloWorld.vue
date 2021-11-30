@@ -149,6 +149,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: rgb(15, 172, 224);
 }
 </style>

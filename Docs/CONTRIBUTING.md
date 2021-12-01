@@ -117,7 +117,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/JCS-Co
 
 ### **Your First Code Contribution**
 
-in order to see how to get started, head [here](https://github.com/JCS-Computer-Science/project-module-1-project-flip/blob/main/Docs/README.md)
+In order to see how to get started, head [here](https://github.com/JCS-Computer-Science/project-module-1-project-flip/blob/main/Docs/README.md)
 
 ### Improving The Documentation
 

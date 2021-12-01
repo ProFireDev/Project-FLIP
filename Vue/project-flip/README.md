@@ -5,7 +5,21 @@
 npm install
 ```
 
+## Check for vulnerable packages
+```
+npm audit
+```
+
+```
+npm audit fix
+```
+
+## Running the dev server
+
+<br>
+
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
@@ -14,6 +28,11 @@ npm run serve
 ```
 npm run build
 ```
+<br>
+
+## **Extra stuff for testing**
+
+<br>
 
 ### Run your unit tests
 ```

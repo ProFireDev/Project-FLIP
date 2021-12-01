@@ -1,3 +1,4 @@
+#https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
 blank_issues_enabled: true
 contact_links:
     url: https://github.com/JCS-Computer-Science/project-module-1-project-flip/blob/main/Docs/SECURITY.md

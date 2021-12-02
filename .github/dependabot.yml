@@ -5,25 +5,25 @@
 
 version: 2
 updates:
-  - package_manager: javascript
+  - package_manager: "javascript"
     directory: /Vue/project-flip/
-    update_schedule: weekly
+    update_schedule: "weekly"
     automerged_updates:
       - match:
           dependency_type: all
           update_type: all
 
-  - package_manager: npm
+  - package_manager: "npm"
     directory: /Vue/project-flip/
-    update_schedule: weekly
+    update_schedule: "weekly"
     automerged_updates:
       - match:
           dependency_type: all
           update_type: all
 
-  - package_manager: github-actions
+  - package_manager: "github-actions"
     directory: /Vue/project-flip/
-    update_schedule: weekly
+    update_schedule: "weekly"
     automerged_updates:
       - match:
           dependency_type: all

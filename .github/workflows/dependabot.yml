@@ -4,9 +4,15 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 on:
   branch: master
+  paths:
+    - "packages/*"
   jobs:
     - name: dependabot
-version: 2
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Update dependencies
+          uses: dependabot/update-dependencies@v2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/Vue/project-flip/" # Location of package manifests

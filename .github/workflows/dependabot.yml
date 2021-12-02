@@ -4,32 +4,8 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 on:
   branch: master
-  paths:
-    - "packages/*"
   jobs:
     - name: dependabot
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Update dependencies
-          uses: dependabot/update-dependencies@v2
-          with:
-            dependencies:
-              - name: @dependabot/bot
-                package:
-                  name: dependabot-bot
-                  version: "^1.0.0"
-                  registry: https://registry.npmjs.org/
-                  registry_name: npm
-                  registry_url: https://registry.npmjs.org/
-                  registry_version: npm
-                  registry_type: npm
-                  registry_host: npmjs.org
-                  registry_hostname: npmjs.org
-                  registry_port: 443
-                  registry_protocol: https
-                  registry_auth:
-                    type: token
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
@@ -37,7 +13,7 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "main"
-      
+
   - package-ecosystem: "github-actions"
     # Workflow files stored in the
     # default location of `.github/workflows`

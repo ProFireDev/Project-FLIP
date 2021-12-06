@@ -10,15 +10,19 @@ on: [pull_request]
 
 jobs:
   label:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: write
 
     steps:
-    - uses: actions/labeler@v3
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        
+      - uses: actions/labeler@v3
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
 # to be configured later for automation
+#this can stay disabled for now
+
+#labels needed
+#docs
+#frontend
+#backend

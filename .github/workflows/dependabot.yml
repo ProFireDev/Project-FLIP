@@ -2,6 +2,9 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+on:
+  schedule:
+  - cron: "0 14 * * 1-6"
 
 version: 2
 updates:

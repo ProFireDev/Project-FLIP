@@ -5,6 +5,9 @@
 on:
   schedule:
   - cron: "0 14 * * 1-6"
+jobs:
+  update:
+    runs-on: ubuntu-latest
 
 version: 2
 updates:

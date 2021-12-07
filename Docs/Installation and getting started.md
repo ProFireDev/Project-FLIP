@@ -10,7 +10,7 @@
 - [vue](https://vuejs.org/v2/guide/installation.html)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
-## <u> **Other reccomended software:**</u>
+## <u> **Other recommended software:**</u>
 
 * [Microsoft PowerToys](https://github.com/microsoft/PowerToys/releases)
   
@@ -20,9 +20,9 @@
 
 # Forking this project for yourself
 
-We reccomend that you Fork this project for yourself, as well as following the instructions below. You can fork this project by following the instructons shown below in the gif.
+We recommend that you Fork this project for yourself, as well as following the instructions below.
 
-> Gif on how to fork here
+> You can fork the project by hitting the gray button on the top right of the page. labeled `fork`
 
 <br>
 

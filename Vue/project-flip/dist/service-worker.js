@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.9a4b53864e3919a63d18057d975ced4b.js"
+  "/precache-manifest.514496128f9d0412e7f6c10a8ceef09d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "project-flip"});

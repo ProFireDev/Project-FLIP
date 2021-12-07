@@ -10,6 +10,6 @@ Please take the time to read over the [contibuting.md](https://github.com/JCS-Co
 
 ## Build status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/99df261e-096a-40b8-9730-757547175aca/deploy-status)](https://app.netlify.com/sites/flippingindustries/deploys) [![CodeQL](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/codeql-analysis.yml) [![Spellcheck Action](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/.spellcheck.yaml/badge.svg?branch=main)](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/.spellcheck.yaml) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/99df261e-096a-40b8-9730-757547175aca/deploy-status)](https://app.netlify.com/sites/flippingindustries/deploys) [![CodeQL](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/codeql-analysis.yml) [![Spellcheck Action](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/spellcheck.yaml/badge.svg?branch=main)](https://github.com/JCS-Computer-Science/project-module-1-project-flip/actions/workflows/spellcheck.yaml)
 
 A full build of the site can be found [here](https://flippingindustries.netlify.app/).

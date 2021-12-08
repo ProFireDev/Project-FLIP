@@ -9,3 +9,12 @@ updates:
     directory: "/Vue/project-flip/" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "STAGING"
+    labels:
+      - "in progress"
+      - "dependencies"
+    assignees:
+      - "ProFireDev"
+      - "MarkRJJ"
+      - "Aakansh-C"
+    open-pull-requests-limit: 10

@@ -9,3 +9,4 @@ updates:
     directory: "/Vue/project-flip/" # Location of package manifests
     schedule:
       interval: "daily"
+    target-branch: "STAGING"

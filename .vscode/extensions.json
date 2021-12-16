@@ -40,6 +40,7 @@
     "vespa-dev-works.jestrunit",
     "kavod-io.vscode-jest-test-adapter",
     "syler.sass-indented",
-    "sysoev.language-stylus"
+    "sysoev.language-stylus",
+    "csstools.postcss"
   ]
 }

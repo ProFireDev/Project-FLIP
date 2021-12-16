@@ -1,40 +1,41 @@
 <template>
-  <div id="nav">
-      <!--this is a temp nav bar-->
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/Build">Build</router-link> |
-    <router-link to="/contact">Contact</router-link> |
-    <router-link to="/login">Login</router-link> |
-    <router-link to="/shop">Shop</router-link> |
-    <router-link to="/signup">Signup</router-link>
-  </div>
-  <router-view /> <!-- This is the router-view
+    <div id="nav">
+        <!--this is a temp nav bar-->
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/Build">Build</router-link> |
+        <router-link to="/contact">Contact</router-link> |
+        <router-link to="/login">Login</router-link> |
+        <router-link to="/shop">Shop</router-link> |
+        <router-link to="/signup">Signup</router-link>
+    </div>
+    <router-view />
+    <!-- This is the router-view
           if you get an ES lint error message here, its 
            wrong -->
-           <!-- In vue 3 you can have more then one root element
+    <!-- In vue 3 you can have more then one root element
            see shorturl.at/sxAEN -->
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
 }
 
 #nav {
-  padding: 30px;
+    padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+    a {
+        font-weight: bold;
+        color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #008fcf;
+        &.router-link-exact-active {
+            color: #008fcf;
+        }
     }
-  }
 }
 </style>

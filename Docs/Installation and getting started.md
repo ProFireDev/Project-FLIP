@@ -1,18 +1,32 @@
 # Getting the Dev Environment set up
 
-## <u> **software used in this project:**</u>
+## <u> **Software used in this project:**</u>
 
 - [VS code](https://code.visualstudio.com/)
 - [node.js](https://nodejs.org/en/download/)
-- [Windows terminal](https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?rtc=1#activetab=pivot:overviewtab) (Optional)
+
 - [GitHub Desktop](https://desktop.github.com/)
 - [Git](https://git-scm.com/downloads)
 - [vue](https://vuejs.org/v2/guide/installation.html)
 - [Vue CLI](https://cli.vuejs.org/guide/installation.html)
 
+## <u> **Other recommended software:**</u>
+
+* [Microsoft PowerToys](https://github.com/microsoft/PowerToys/releases)
+  
+* [Windows terminal](https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?rtc=1#activetab=pivot:overviewtab)
+  
 <br>
 
-## <u> **Installing:**</u>
+# Forking this project for yourself
+
+We recommend that you Fork this project for yourself, as well as following the instructions below.
+
+> You can fork the project by hitting the gray button on the top right of the page. labeled `fork`
+
+<br>
+
+# **Installing**
 
 <br>1. Install Github desktop [here](https://desktop.github.com/ "here").
 
@@ -42,7 +56,7 @@ You will do all your work on your local branch. if you wish to merge your work i
 
 When Pushing your code, there is a branch called **STAGING** this branch is the "fast" branch and is where all the most up-to-date code is. you will always want to merge your work into this branch.
 
-**Do not delete the branch after it has been merged to another branch, you need to keep pushing to it. think of it like your own personal version of the repository.**
+> #### **Do not delete the branch after it has been merged to another branch, you need to keep pushing to it. think of it like your own personal version of the repository.**
 
 <br>
 
@@ -86,6 +100,8 @@ You can check you have the right version with this command:
 
 ## <u>Initialize the Web GUI</u>
 
+<br>
+
 Type `ls` to list all files and directories in your project.
 
 Type `cd Vue` to switch to the Vue directory
@@ -94,11 +110,12 @@ Now enter `vue ui` to initialize the Vue web UI. It will automatically pull up t
 
 In the event that it doesn't automatically start and run check the address given in the Terminal window. It should be something like [http://localhost:8000](http://localhost:8000)
 
-**note:** Once you are done, to kill the server you can just press `CTRL + C` in the terminal window.
+**Note:** Once you are done, to kill the server you can just press `CTRL + C` in the terminal window.
+
 <br>
 
 ## <u>Congratulations! you have now set up your Dev Environment</u>
 
 <br>
 
-### **_Note this file is subject to change a lot, keep an eye on it_**
+> ### **_Note: this file is subject to change a lot, keep an eye on it_**

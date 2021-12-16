@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <h1 class="text-3xl font-bold underline">
+        If this is bold and underlined, then it means that Tailwind CSS is
+        working!
+    </h1>
 </template>

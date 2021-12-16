@@ -1,11 +1,34 @@
-# project-flip
+# Getting Started with Project-FLIP
 
-## Project setup
+Below is a set commands you can quickly use in the terminal to set up the dev server and the project.
+
+
+## Project Setup
+
+<br>
+
 ```
 npm install
 ```
 
+## Check for vulnerable packages
+
+<br>
+
+```
+npm audit
+```
+
+```
+npm audit fix
+```
+
+## Running the dev server
+
+<br>
+
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
@@ -14,6 +37,11 @@ npm run serve
 ```
 npm run build
 ```
+<br>
+
+## **Extra stuff for testing**
+
+<br>
 
 ### Run your unit tests
 ```

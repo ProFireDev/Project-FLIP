@@ -1,6 +1,7 @@
 <template>
     <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png" />
+        <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
+        <br />
         <HelloWorld
             msg="Welcome to flipping, this site is currently under construction"
         />

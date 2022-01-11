@@ -20,7 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <router-view />
 
 
-  <img alt="Vue logo" class="mx-auto" src="./assets/logo.png" />
+  <img alt="Vue logo" class="mx-auto" src="./assets/Vue Logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
 
 </template>

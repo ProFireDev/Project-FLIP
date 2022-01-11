@@ -1,0 +1,85 @@
+/* Contact Page */
+        #discription_C {
+            position: absolute;
+            right: 15vw;
+            top: 65vh;
+            z-index: 80;
+            font-size: 1.5vw;
+        }
+
+        #contact_Title {
+            position: fixed;
+            left: 38vw;
+            top: 2.5vh;
+            font-size: 2.5vw;
+        } 
+
+        #contact_IMG {
+            position: absolute;
+            right: 8vw;
+            top: 13vh;
+            width: 50%;
+        }
+        #email_FORM {
+            position: absolute;
+            top: 35vh;
+            left: 10vw;
+            width: 90%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10);
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        #Submit {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 20px;
+            font-size: 24px;
+            border-radius: 8px;
+            color: rgb(0, 0, 0);
+            transition: .3s ease background-color;
+        }
+        #Submit:hover {
+            background-color:  rgb(111, 186, 209);
+        }
+        #status.success {
+            background-color: rgb(211, 250, 153);
+            animation: status 4s ease forwards;
+          }
+          #status.error {
+            background-color: rgb(250, 129, 92);
+            color: white;
+            animation: status 4s ease forwards;
+          }
+          @keyframes status {
+            0% {
+              opacity: 1;
+              pointer-events: all;
+            }
+            90% {
+              opacity: 1;
+              pointer-events: all;
+            }
+            100% {
+              opacity: 0;
+              pointer-events: none;
+            }
+          }
+        
+
+/* Contact Page */
+    .form_group {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .form-group input,
+    .form-group textarea {
+       width: 100%;
+       font-size: 1vw;;
+       border: 1px solid gray;
+       margin-top: 1vh;
+    }

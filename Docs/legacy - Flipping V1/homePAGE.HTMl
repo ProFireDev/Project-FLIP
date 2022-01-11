@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <title class="colourR" > Flipping</title>
+    <link rel="icon" href="images/Flipping_Icon.png" >
+    <link rel="stylesheet" href="\CSS\home.css">
+
+
+
+
+<div id="app_OG">
+    <div id='container'>
+        <div id="title" class="Title">
+            
+            <a href="homePAGE.HTMl"> <img id="home_button" src='images/Flipping 2.0.png' title='Return To Home Page' width="200%"> </img> </a>
+            
+            <a href="cartPAGE.html"> <img id="cart_IMG" src="images/Cart_Trans.png" width='8%'title='Check Your Cart'></img> </a>
+
+            <a href='shop_PAGE.html'> <h2 id="shop" class="colourG" title="Browse through our amazing produts"> SHOP </h2> </a>
+            
+           <a href="contactPAGE.HTML"> <h2 id="contact" class="colourG" title="Email or Contact us if you have any questions OR even to work on building you something unique"> CONTACT </h2> </a>
+        </div>
+
+        <div id='discription' class='colourW discription'>
+            <transition name="slideL"   appear> 
+                <h2 style="transition-delay: 1s"> Hey! Welcome! <br> 
+                    Here at Flipping Industries,<br> 
+                    we strive for maximum customer<br> 
+                    satisfaction and we belive everyone<br> 
+                    has the creative spirit<br> 
+                    and a love for gaming</h2>
+            </transition> 
+        </div> 
+
+        <div id='images'> 
+            <transition name="slideR" appear>
+                <img id="home_IMG" src="images/home_image 2.0.png" style="transition-delay: .3s"width="95%"></img>
+            </transition>          
+        </div>
+    </div>
+</div>
+
+</head>
+
+<body>
+    <script>
+         var VM = new Vue ({
+                el: '#app_OG',
+                data: {
+
+                },
+                methods: {
+                }
+            })
+    </script>
+
+</body>

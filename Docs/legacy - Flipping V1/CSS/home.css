@@ -1,0 +1,111 @@
+/* Specific/Custom Positions */
+
+    /* Overall */
+        #contact {
+            position: absolute;
+            top: 6vh;
+            right: 35vw;
+        }
+        #contact:hover {
+            transform: scale(1.1);
+            color: rgba(88, 87, 87, 0.411);
+        }
+        #shop {
+            position: absolute;
+            top: 6vh;
+            left: 40vw;
+        }
+        #shop:hover {
+            transform: scale(1.1);
+            color: rgba(88, 87, 87, 0.411);
+        }
+
+        #cart_IMG {
+            position: absolute;
+            top: 2.5vh;
+            right: 9vw; 
+        }
+
+    /* Home page */
+        #home_IMG {
+            position: relative;
+            top: 17vh;
+            left: 2.5vw;
+            z-index: 0;
+        }
+
+        #discription {
+            position: absolute;
+            right: 20vw;
+            top: 45vh;
+            z-index: 80;
+        }
+
+        #body_Contact {
+            background: rgba(3, 186, 252, 0.219);
+        }
+
+
+
+/* Public use */
+    /* Title */
+        .Title {
+            background-color: #ffffff;
+            position: fixed;
+            left: 0%;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 2vh;
+            padding-bottom: 1vh;
+            padding-left: 4vw;
+        }
+
+    /* Colours */
+        .colourG {
+            color: rgb(105, 103, 103);
+        }
+        .colourPB {
+            color: rgb(212, 244, 250);
+        }
+        .colourW {
+            color: white;
+        }
+        /*Background Colours */
+
+        /* Z-Index*/
+        .top {
+            z-index: -2;
+        } 
+
+
+    /* Misc*/
+
+
+    /* Transitions */
+        .slide-leave-to, .slide-enter {
+            opacity: 0;
+            transform: translatex(25px);
+        }
+        .slide-enter-active, .slide-leave-active {
+            transition-delay: 3s;
+            transition: all .5s linear;    
+        }
+
+        .slideL-leave-to, .slideL-enter {
+            opacity: 0;
+            transform: translatex(25px);
+        }
+        .slideL-enter-active, .slideL-leave-active {
+            transition-delay: 3s;
+            transition: all .5s linear;    
+        }
+        .slideR-leave-to, .slideR-enter {
+            opacity: 0;
+            transform: translatex(-25px);
+        }
+        .slideR-enter-active, .slideR-leave-active {
+            transition: all .5s linear;
+        }

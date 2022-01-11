@@ -1,23 +1,15 @@
 <template>
     <div class="home">
-        <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
-        <br />
-        <HelloWorld
-            msg="Welcome to flipping, this site is currently under construction"
-        />
     </div>
+
+   <div class="text-3xl font-bold underline">
+        <h1>This is the Home page</h1>
+    </div>
+
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
-export default {
-    name: "Home",
-    components: {
-        HelloWorld,
-    },
-};
+<script>
 </script>
 
 <!--figure out a proper nav bar and footer here first, then get the rest of the content together-->

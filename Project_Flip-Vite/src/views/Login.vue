@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div class="text-3xl font-bold underline">
         <h1>This is the login page</h1>
     </div>
 </template>

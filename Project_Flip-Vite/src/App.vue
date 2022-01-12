@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-    <div id="nav" class=>
+    <div id="nav" class="content-align center">
         <!--this is a temp nav bar-->
         <router-link to="/Home">Home</router-link> |
         <router-link to="/about">About</router-link> |

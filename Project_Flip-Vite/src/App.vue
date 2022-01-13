@@ -6,16 +6,16 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-    <div id="nav" class="content-align center">
+    <div id="nav" class="flex justify-center items-center bg-gray" >
         <!--this is a temp nav bar-->
-        <router-link to="/Home">Home</router-link> |
+        <router-link to="/Home" src="">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/build">Build</router-link> |
         <router-link to="/contact">Contact</router-link> |
         <router-link to="/login">Login</router-link> |
         <router-link to="/shop">Shop</router-link> |
         <router-link to="/signup">Signup</router-link>
-        
+        <br>
         <h1> Site Is Currently Under Construction</h1>
     </div>
 
@@ -23,13 +23,16 @@ import HelloWorld from './components/HelloWorld.vue'
     <router-view />
 
 
-  <img alt="Vue logo" class="mx-auto" src="./assets/Vue Logo.png" />
 
 
 </template>
 
 <style>
 body {
-  background-color: rgb(132,136,140);
+  background-color: rgb(246, 246, 246);
+}
+
+.nav_bar {
+
 }
 </style>

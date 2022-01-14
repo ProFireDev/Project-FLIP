@@ -1,25 +1,50 @@
 <template>
+
+
+    <div id="filler" class="page_filler"></div>
+
+
+
     <div class="home">
-        <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
-        <br />
-        <HelloWorld
-            msg="Welcome to flipping, this site is currently under construction"
-        />
     </div>
-      <img alt="Vue logo" class="mx-auto" src="./assets/Vue Logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+
+
+   <div class="text-3xl font-bold underline">
+        <h1>This is the Home page</h1>
+    </div>
+
+
 </template>
+<style>
+body  {
+    overflow-x: hidden !important;
+}
+
+.page_filler{
+position: absolute;
+
+width: 200%;
+height: 120%;
+
+z-index: -1000;
+
+
+background: url(/Home_Page_Filler.jpg);
+transform: rotate(-25deg);
+}
+
+/*.page_filler {
+    position: absolute;
+    height: 200%;
+    width: 200%;
+background: url(public/Home_Page_Filler.jpg);
+transform: rotate(-25deg);
+} */
+
+</style>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
-export default {
-    name: "Home",
-    components: {
-        HelloWorld,
-    },
-};
 </script>
 
 <!--figure out a proper nav bar and footer here first, then get the rest of the content together-->

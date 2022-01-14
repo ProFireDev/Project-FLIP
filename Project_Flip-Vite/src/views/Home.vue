@@ -14,11 +14,18 @@
 
 </template>
 <style>
+body  {
+    overflow-x: hidden !important;
+}
+
 .page_filler{
 position: absolute;
+
 width: 200%;
-height: 200%;
+height: 120%;
+
 z-index: -1000;
+
 
 background: url(public/Home_Page_Filler.jpg);
 transform: rotate(-25deg);

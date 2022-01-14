@@ -1,45 +1,17 @@
 import { defineConfig } from 'vite'
+import { VitePWA as pwa } from 'vite-plugin-pwa'
+import manifest from './manifest.json'
 import vue from '@vitejs/plugin-vue'
-import { VitePWA } from 'vite-plugin-pwa'
+
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
         vue(),
-        VitePWA({
-            //configure this later with the needed stuff
-            // check out what lighthouse has to say.
-            mode: 'development',
-            base: '/',
-            srcDir: 'src',
-            filename: 'sw.ts',
-            includeAssets: ['/favicon.png'],
+        pwa({
             strategies: 'injectManifest',
-            manifest: {
-                name: 'Test Project',
-                short_name: 'Test',
-                theme_color: '#ffffff',
-                start_url: '/',
-                display: 'standalone',
-                background_color: '#ffffff',
-                icons: [
-                    {
-                        src: 'icon-192.png',
-                        sizes: '192x192',
-                        type: 'image/png',
-                    },
-                    {
-                        src: '/icon-512.png',
-                        sizes: '512x512',
-                        type: 'image/png',
-                    },
-                    {
-                        src: 'icon-512.png',
-                        sizes: '512x512',
-                        type: 'image/png',
-                        purpose: 'any maskable',
-                    },
-                ],
-            },
+            srcDir: '',
+            filename: 'service-worker.js',
+            manifest,
         }),
     ],
 })

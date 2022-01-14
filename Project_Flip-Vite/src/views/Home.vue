@@ -27,7 +27,7 @@ height: 120%;
 z-index: -1000;
 
 
-background: url(public/Home_Page_Filler.jpg);
+background: url(/Home_Page_Filler.jpg);
 transform: rotate(-25deg);
 }
 

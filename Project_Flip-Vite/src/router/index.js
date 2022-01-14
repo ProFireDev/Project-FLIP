@@ -53,7 +53,7 @@ const routes = [
         path: '/offline',
         name: 'offline',
         component: () =>
-            import(/* webpackChunkName: "offline" */ '../views/offline.html'),
+            import(/* webpackChunkName: "offline" */ '../views/offline.vue'),
     },
     {
         path: '/:pathMatch(.*)*',

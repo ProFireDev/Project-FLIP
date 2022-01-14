@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '/src/components/Home.vue'
-import About from '/src/components/About.vue'
+import NotFound from '../views/page404NotFound.vue'
 
 const routes = [
     {
@@ -54,6 +54,14 @@ const routes = [
         name: 'offline',
         component: () =>
             import(/* webpackChunkName: "offline" */ '../views/offline.html'),
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () =>
+            import(
+                /* webpackChunkName: "notfound" */ '../views/page404NotFound.vue'
+            ),
     },
 ]
 

@@ -6,32 +6,28 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-    <div id="nav">
+    <div id="nav_bar" class="flex justify-between items-center text-gray" >
         <!--this is a temp nav bar-->
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/build">Build</router-link> |
-        <router-link to="/contact">Contact</router-link> |
-        <router-link to="/login">Login</router-link> |
-        <router-link to="/shop">Shop</router-link> |
-        <router-link to="/signup">Signup</router-link>
+        <router-link to="/Home"> <img src="\src\assets\Trans_Home_Page_Logo.png" class="object-scale-down h-48 w-22 flex justify-start "> </router-link> 
+       
+          <router-link to="/shop" class="hover:underline decoration-orange font-roboto">Shop</router-link> 
+          <router-link to="/build" class="hover:underline decoration-orange font-roboto">Build</router-link> 
+          <router-link to="/about" class="hover:underline decoration-orange font-roboto">About  </router-link> 
+
+        <router-link to="/cart"> <img src="\src\assets\Cart_Icon (2).png" class="flex justify-end"> </router-link> 
+        <router-link to="/login"> <img src="\src\assets\Login_Icon.png" class="flex justify-end"> </router-link> 
+
     </div>
-
+        <h1  class="mx-auto"> Site Is Currently Under Construction</h1>
+  
     <router-view />
-
-
-  <img alt="Vue logo" class="mx-auto" src="./assets/Vue Logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
 
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  //color: #2c3e50;
-  margin-top: 60px;
+body {
+  background-color: rgb(246, 246, 246);
 }
+
 </style>
+</template>

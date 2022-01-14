@@ -5,9 +5,14 @@ import About from '/src/components/About.vue'
 
 const routes = [
     {
-        path: "/",
-        name: "Home",
-        component: Home,
+        path: "/Home", // this is the path that will be used in the url
+        name: "Home", // this is the name of the route
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            // this is the component that will be loaded
+            import(/* webpackChunkName: "about" */ "../views/Home.vue"), // this is the path to the component being imported
     },
     {
         path: "/about", // this is the path that will be used in the url
@@ -32,10 +37,10 @@ const routes = [
             import(/* webpackChunkName: "login" */ "../views/Login.vue"),
     },
     {
-        path: "/contact",
-        name: "Contact",
+        path: "/cart",
+        name: "Cart",
         component: () =>
-            import(/* webpackChunkName: "contact" */ "../views/Contact.vue"),
+            import(/* webpackChunkName: "contact" */ "../views/Cart.vue"),
     },
     {
         path: "/build",

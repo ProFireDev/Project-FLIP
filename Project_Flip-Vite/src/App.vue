@@ -22,10 +22,6 @@ import HelloWorld from './components/HelloWorld.vue'
   
     <router-view />
 
-<<<<<<< Aakansh-C-Dev
-
-
-
 </template>
 
 <style>
@@ -34,5 +30,4 @@ body {
 }
 
 </style>
-
 </template>

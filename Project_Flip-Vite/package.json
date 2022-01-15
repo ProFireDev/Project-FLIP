@@ -1,6 +1,6 @@
 {
-    "name": "vite-app",
-    "version": "0.0.0",
+    "name": "Project-Flip",
+    "version": "0.0.1",
     "scripts": {
         "dev": "vite",
         "build": "vite build",

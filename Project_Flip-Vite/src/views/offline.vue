@@ -9,11 +9,13 @@
                 content="width=device-width, initial-scale=1.0"
             />
             <title>Your Offline!</title>
-            <img
-                class="logo"
-                src="../img/icons/favicon.ico.ico"
-                alt="We're sorry, we can't load the Flipping logo right now"
-            />
+            <div class="flex flex-col justify-center items-center">
+                <img
+                    class="logo"
+                    src="/img/icons/favicon.ico.ico"
+                    alt="We're sorry, we can't load the Flipping logo right now"
+                />
+            </div>
         </head>
         <body>
             <p class="offline">You're currently offline!</p>
@@ -27,9 +29,8 @@
 
 <style>
 img.logo {
-    position: absolute;
     right: 0;
-    top: -2rem;
+    top: -6%;
     opacity: 1;
     z-index: -1;
     position: relative;

@@ -1,66 +1,91 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '/src/components/Home.vue'
-import About from '/src/components/About.vue'
+import NotFound from '../views/page404NotFound.vue'
 
 const routes = [
     {
-        path: "/Home", // this is the path that will be used in the url
-        name: "Home", // this is the name of the route
+        path: '/Home', // this is the path that will be used in the url
+        name: 'Home', // this is the name of the route
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
             // this is the component that will be loaded
-            import(/* webpackChunkName: "about" */ "../views/Home.vue"), // this is the path to the component being imported
+            import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
     },
     {
-        path: "/about", // this is the path that will be used in the url
-        name: "About", // this is the name of the route
+        path: '/about', // this is the path that will be used in the url
+        name: 'About', // this is the name of the route
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
             // this is the component that will be loaded
-            import(/* webpackChunkName: "about" */ "../views/About.vue"), // this is the path to the component being imported
+            import(/* webpackChunkName: "about" */ '../views/About.vue'), // this is the path to the component being imported
     },
     {
-        path: "/shop",
-        name: "Shop",
+        path: '/shop',
+        name: 'Shop',
         component: () =>
-            import(/* webpackChunkName: "shop" */ "../views/Shop.vue"),
+            import(/* webpackChunkName: "shop" */ '../views/Shop.vue'),
     },
     {
-        path: "/login",
-        name: "Login",
+        path: '/login',
+        name: 'Login',
         component: () =>
-            import(/* webpackChunkName: "login" */ "../views/Login.vue"),
+            import(/* webpackChunkName: "login" */ '../views/Login.vue'),
     },
     {
-        path: "/cart",
-        name: "Cart",
+        path: '/cart',
+        name: 'Cart',
         component: () =>
-            import(/* webpackChunkName: "contact" */ "../views/Cart.vue"),
+            import(/* webpackChunkName: "contact" */ '../views/Cart.vue'),
+    },
+    //add in contact page
+    /*{
+        path: '/contact',
+        name: 'Contact',
+        component: () =>
+            import(/* webpackChunkName: "contact" */ //'../views/Contact.vue'),
+    //},
+    {
+        path: '/build',
+        name: 'Build',
+        component: () =>
+            import(/* webpackChunkName: "build" */ '../views/Build.vue'),
+    },
+    /*{
+        path: '/signup',
+        name: 'Signup',
+        component: () =>
+            import(/* webpackChunkName: "signup" */ // '../views/Signup.vue'),
+    //},
+    /*{
+        path: '/signin',
+        name: 'Signin',
+        component: () =>
+            import(/* webpackChunkName: "signup" */ // '../views/Signin.vue'),
+    //},
+    {
+        path: '/offline',
+        name: 'offline',
+        component: () =>
+            import(/* webpackChunkName: "offline" */ '../views/offline.vue'),
     },
     {
-        path: "/build",
-        name: "Build",
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
         component: () =>
-            import(/* webpackChunkName: "build" */ "../views/Build.vue"),
+            import(
+                /* webpackChunkName: "notfound" */ '../views/page404NotFound.vue'
+            ),
     },
-    {
-        path: "/signup",
-        name: "Signup",
-        component: () =>
-            import(/* webpackChunkName: "signup" */ "../views/Signup.vue"),
-    },
-];
+]
 
 const router = createRouter({
-
-    history : createWebHistory(),
+    history: createWebHistory(),
     routes,
-
 })
 
 export default router

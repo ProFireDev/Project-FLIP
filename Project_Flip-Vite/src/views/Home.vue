@@ -14,44 +14,7 @@
     </div>
 
 </template>
-<style>
-body  {
-    overflow-x: hidden !important;
-}
 
-/*#home_sign {
-    left: 1vw;
-} */
-
-
-.page_filler{
-position: absolute;
-
-bottom: -5%;
-left: -10%;
-
-width: 200%;
-height: 120%;
-
-z-index: -1000;
-
-transform: rotate(-25deg);
-}
-
-/*.page_filler{
-position: absolute;
-
-width: 200%;
-height: 120%;
-
-z-index: -1000;
-
-
-background: url(/Home_Page_Filler.jpg);
-transform: rotate(-25deg);
-} */
-
-</style>
 
 <script>
 
@@ -65,11 +28,13 @@ body  {
 .page_filler{
 position: absolute;
 
+bottom: -5%;
+left: -10%;
+
 width: 200%;
 height: 120%;
 
 z-index: -1000;
-
 
 background: url(/Home_Page_Filler.jpg);
 transform: rotate(-25deg);
@@ -85,8 +50,5 @@ transform: rotate(-25deg);
 
 </style>
 
-<script>
-
-</script>
 
 <!--figure out a proper nav bar and footer here first, then get the rest of the content together-->

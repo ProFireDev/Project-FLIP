@@ -13,7 +13,8 @@ import HelloWorld from './components/HelloWorld.vue'
           <router-link to="/shop"  class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">Shop</router-link> 
           <router-link to="/build" class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">Build</router-link> 
           <router-link to="/about" class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">About  </router-link> 
-        <div class="flex justify-end">
+       
+       <div class="flex justify-end">
           <router-link to="/login"> <img src="\src\assets\Login_Icon.png" class="flex justify-end pr-4"> </router-link> 
           <router-link to="/cart"> <img src="\src\assets\Cart_Icon (2).png" class="flex justify-end"> </router-link> 
         </div>

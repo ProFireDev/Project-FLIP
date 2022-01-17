@@ -1,20 +1,15 @@
 <template>
 
 
-    <div id="filler" class="page_filler"></div>
+    <div id="filler" class="page_filler" src="\src\assets\Home_Page_Filler.jpg"></div>
 
 
-    <div class="home">
+    <div id="home_sign" class="font-ABeeZee text-6xl text-[#84888C] font-bold tracking-widest pl-[8vw]">
+        <h1> HOME </h1>
     </div>
 
 
-   <div class="text-3xl font-bold underline">
-        <h1>This is the Home page</h1>
-    </div>
-
-
-
-   <div class="text-3xl font-bold underline">
+   <div class="text-center underline text-3xl font-bold">
         <h1>This is the Home page</h1>
     </div>
 
@@ -24,7 +19,26 @@ body  {
     overflow-x: hidden !important;
 }
 
+/*#home_sign {
+    left: 1vw;
+} */
+
+
 .page_filler{
+position: absolute;
+
+bottom: -5%;
+left: -10%;
+
+width: 200%;
+height: 120%;
+
+z-index: -1000;
+
+transform: rotate(-25deg);
+}
+
+/*.page_filler{
 position: absolute;
 
 width: 200%;
@@ -35,14 +49,6 @@ z-index: -1000;
 
 background: url(/Home_Page_Filler.jpg);
 transform: rotate(-25deg);
-}
-
-/*.page_filler {
-    position: absolute;
-    height: 200%;
-    width: 200%;
-background: url(public/Home_Page_Filler.jpg);
-transform: rotate(-25deg);
 } */
 
 </style>
@@ -51,7 +57,6 @@ transform: rotate(-25deg);
 
 </script>
 
-</template>
 <style>
 body  {
     overflow-x: hidden !important;

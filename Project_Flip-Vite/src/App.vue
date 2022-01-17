@@ -6,19 +6,27 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-    <div id="nav_bar" class="flex justify-between items-center text-gray" >
+    <div id="nav_bar" class="flex justify-around items-center text-gray" >
         <!--this is a temp nav bar-->
-        <router-link to="/Home"> <img src="\src\assets\Trans_Home_Page_Logo.png" class="object-scale-down h-48 w-22 flex justify-start "> </router-link> 
+        <router-link to="/Home"> <img src="\src\assets\Trans_Home_Page_Logo.png" class="object-scale-down h-48 w-22 flex justify-start hover:underline decoration-orange"> </router-link> 
        
-          <router-link to="/shop" class="hover:underline decoration-orange font-roboto">Shop</router-link> 
-          <router-link to="/build" class="hover:underline decoration-orange font-roboto">Build</router-link> 
-          <router-link to="/about" class="hover:underline decoration-orange font-roboto">About  </router-link> 
-
-        <router-link to="/cart"> <img src="\src\assets\Cart_Icon (2).png" class="flex justify-end"> </router-link> 
-        <router-link to="/login"> <img src="\src\assets\Login_Icon.png" class="flex justify-end"> </router-link> 
+          <router-link to="/shop"  class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">Shop</router-link> 
+          <router-link to="/build" class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">Build</router-link> 
+          <router-link to="/about" class="font-roboto text-2xl hover:underline decoration-orange decoration-4 underline-offset-4">About  </router-link> 
+        <div class="flex justify-end">
+          <router-link to="/login"> <img src="\src\assets\Login_Icon.png" class="flex justify-end pr-4"> </router-link> 
+          <router-link to="/cart"> <img src="\src\assets\Cart_Icon (2).png" class="flex justify-end"> </router-link> 
+        </div>
 
     </div>
-        <h1  class="mx-auto"> Site Is Currently Under Construction</h1>
+
+    <div id="social_media">
+        <button onclick="" src="" class=""></button>
+        <button onclick="" src="" class=""></button>
+        <button onclick="" src="" class=""></button>
+        <button onclick="" src="" class=""></button>
+    </div>
+        <h1  class="text-center underline text-3xl font-bold"> Site Is Currently Under Construction</h1>
   
     <router-view />
 
@@ -30,4 +38,4 @@ body {
 }
 
 </style>
-</template>
+

@@ -46,7 +46,7 @@ bottom: 40vh;
         <a><img class="p-[2vh]" src="\src\assets\Facebook_Logo.png"></a>
        
        </div>
-https://discord.gg/TrMaZxY47j
+
 </template>
 
 

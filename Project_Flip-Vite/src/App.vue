@@ -73,15 +73,7 @@ import HelloWorld from './components/HelloWorld.vue'
                 />
             </router-link>
         </div>
-
-        <router-link to="/cart">
-            <img src="\src\assets\Cart_Icon (2).png" class="flex justify-end" />
-        </router-link>
-        <router-link to="/login">
-            <img src="\src\assets\Login_Icon.png" class="flex justify-end" />
-        </router-link>
     </div>
-
     <router-view />
 </template>
 

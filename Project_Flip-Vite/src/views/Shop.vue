@@ -1,7 +1,25 @@
+<style>
+
+.filler{
+position: absolute;
+
+bottom: -30%;
+
+width: 100%;
+height: 100%;
+overflow: auto;
+
+z-index: -500;
+
+background-repeat: no-repeat;
+
+background: url(https://user-images.githubusercontent.com/89943490/150007805-0bf19e35-eeff-4540-9533-1474e90ef40e.jpg);
+
+}
+</style>
+
 <template>
-    <div class="text-center underline text-3xl font-bold">
-        <h1>This is the shop page</h1>
-    </div>
+    <div class="filler"></div>   
 </template>
 
 <script>

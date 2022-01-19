@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/labeler@v3
         with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          repo-token: "${{ secrets.LABEL_TOKEN }}"
 # to be configured later for automation
 #this can stay disabled for now
 

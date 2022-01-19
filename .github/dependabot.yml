@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/Vue/project-flip/" # Location of package manifests
+    directory: "Project_Flip-Vite" # Location of package manifests
     schedule:
       interval: "daily"

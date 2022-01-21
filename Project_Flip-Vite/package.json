@@ -13,7 +13,7 @@
         "vuex": "^4.0.2"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^2.0.0",
+        "@vitejs/plugin-vue": "^2.1.0",
         "autoprefixer": "^10.4.2",
         "eslint": "^8.7.0",
         "create-vite-pwa": "^0.1.0",

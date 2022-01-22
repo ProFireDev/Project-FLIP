@@ -4,9 +4,14 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+<style>
+body {
+    background-color: rgb(246, 246, 246);
+}
+</style>
 
 <template>
-    <div id="nav_bar" class="flex justify-around items-center text-gray">
+    <div id="nav_bar" class="flex justify-around items-center text-gray" v-if="$route.fullPath !== '/login'">
         <!--this is a temp nav bar-->
         <router-link id="nav_bar_Logo" to="/Home">
             <img
@@ -48,7 +53,7 @@ import HelloWorld from './components/HelloWorld.vue'
             >Build</router-link
         >
         <router-link
-            to="/about"
+            to="/contact"
             class="
                 font-roboto
                 text-2xl
@@ -56,7 +61,7 @@ import HelloWorld from './components/HelloWorld.vue'
                 decoration-orange decoration-4
                 underline-offset-4
             "
-            >About
+            >Contact
         </router-link>
 
         <div class="flex justify-end">
@@ -75,13 +80,69 @@ import HelloWorld from './components/HelloWorld.vue'
         </div>
     </div>
     <router-view />
+
+      <footer class="absolute w-full bottom-0 bg-[#374151] pb-6">
+    <div class="container mx-auto px-4">
+      <hr class="mb-6 border-b-1 border-gray-700" />
+      <div
+        class="flex flex-wrap items-center md:justify-between justify-center"
+      >
+        <div class="w-full md:w-4/12 px-4">
+          <div class="text-sm text-white font-semibold py-1">
+            Copyright © {{date}}
+            <a
+              href="https://www.creative-tim.com"
+              class="text-white hover:text-gray-400 text-sm font-semibold py-1"
+              >Flipping Industries</a
+            >
+          </div>
+        </div>
+        <div class="w-full md:w-8/12 px-4">
+          <ul
+            class="flex flex-wrap list-none md:justify-end  justify-center"
+          >
+           <li>
+              <a
+                href="http://localhost:3000/contact"
+                class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.creative-tim.com/presentation"
+                class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                >Hiring</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                >MIT License</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
-<style>
-body {
-    background-color: rgb(246, 246, 246);
-}
-</style>
 
 <script checkBrowserStatus>
 //check if the browser is online

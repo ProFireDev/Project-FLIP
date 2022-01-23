@@ -57,8 +57,8 @@ body  {
           <a href="#" class="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Forgot Password?</a>
         </div>
 
-        <button type="submit" class="w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
-              px-4 py-3 mt-6">Log In</button>
+        <button type="submit" class="w-full block bg-[#666fc4] hover:bg-[#7984ea] focus:bg-[#666fc4] text-white font-semibold rounded-lg px-4 py-3 mt-6 z-1"
+              > Login </button>
       </form>
 
       <hr class="my-6 border-gray-300 w-full">

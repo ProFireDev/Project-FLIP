@@ -51,8 +51,8 @@
 body {
     padding: 0;
     margin: 0;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #notfound {

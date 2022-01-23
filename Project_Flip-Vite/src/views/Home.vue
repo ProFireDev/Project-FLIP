@@ -1,7 +1,8 @@
 <style>
-body  {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+
+body.home {
+    overflow-x: hidden;
+
 }
 
 .page_filler{
@@ -44,7 +45,7 @@ bottom: 40vh;
        <a href="https://discord.gg/TrMaZxY47j"><img class="p-[2vh] scale-125" src="\src\assets\Discord_Logo.png"></a>
         <a href="https://www.instagram.com/flipping_industries/?hl=en"><img class="p-[2vh]" src="\src\assets\Instagram_Logo.png"></a>
         <a href="https://twitter.com/indistrys?t=onBAOqdrYkKGmb01DXh3Zw&s=09"><img class="p-[2vh]" src="\src\assets\Twitter_Logo.png"></a>
-        <a href="https://www.facebook.com/zak.flipping.7/"><img class="p-[2vh]" src="\src\assets\Facebook_Logo.png"></a>
+        <a href="https://www.facebook.com/Flipping-Industries-109518394203284"><img class="p-[2vh]" src="\src\assets\Facebook_Logo.png"></a>
        
        </div>
 
@@ -54,6 +55,11 @@ bottom: 40vh;
 
 
 <script>
+export default {
+    beforeCreate: function () {
+        document.body.className = 'home';
+    }
+}
 </script>
 
 

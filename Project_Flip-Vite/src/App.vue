@@ -11,9 +11,10 @@ body {
 </style>
 
 <template>
+<div v-if="$route.fullPath !== '/sign-up'">
     <div id="nav_bar" class="flex justify-around items-center text-gray" v-if="$route.fullPath !== '/login'">
         <!--this is a temp nav bar-->
-        <router-link id="nav_bar_Logo" to="/Home">
+        <router-link id="nav_bar_Logo" to="/Home" >
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="
@@ -79,7 +80,8 @@ body {
             </router-link>
         </div>
     </div>
-    <router-view />
+  </div>
+    <router-view/>
 
       <footer class="absolute w-full bottom-0 bg-[#374151] pb-6">
     <div class="container mx-auto px-4">
@@ -103,7 +105,7 @@ body {
           >
            <li>
               <a
-                href="http://localhost:3000/contact"
+                href="/contact"
                 class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
                 >Pricing</a
               >
@@ -150,4 +152,5 @@ body {
 if (!navigator.onLine) {
     window.location.href = '/offline'
 }
+
 </script>

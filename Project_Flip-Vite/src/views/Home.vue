@@ -54,7 +54,6 @@ bottom: 40vh;
 
 
 <script>
-
 </script>
 
 

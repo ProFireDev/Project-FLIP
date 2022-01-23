@@ -30,7 +30,7 @@
                         its name changed or is temporarily unavailable.
                     </p>
                     <button
-                        onclick="window.location.href='https://flippingindustries.netlify.app/';"
+                        onclick="window.location.href='/home';"
                     >
                         Back To Homepage
                         <!--Change this to /home to make cleaner maybe? for now the URL is hardcoded-->
@@ -51,6 +51,8 @@
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }
 
 #notfound {

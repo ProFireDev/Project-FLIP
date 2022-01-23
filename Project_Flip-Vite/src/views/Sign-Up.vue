@@ -5,11 +5,15 @@ body  {
     background-color: white;
 }
 </style>
+<script>
+//Image https://tinyurl.com/linktosolution
+//janky code to hide the nav bar, as "&&" does not work on the App.vue v-if hide nav-bar for a specific route. Unable to make a complex multi statement
+  //document.getElementById("nav_bar").style.display = 'none';
+</script>
+
 
 
 <template>
-
-
         <router-link id="nav_bar_home" to="/Home">
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
@@ -25,8 +29,8 @@ body  {
         </router-link>
 
 <section class="flex flex-col md:flex-row h-screen items-center">
-    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl lg:pl-[5%] lg:pb-[5%] md:pl-[2%] md:pb-[3%]">
-        Welcome Back!!
+    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl lg:pl-[3%] lg:pb-[3%] md:pl-[2%] md:pb-[3%]">
+        Join Flipping Today!
     </h1>
 
   <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
@@ -73,16 +77,16 @@ body  {
             </div>
           </button>
 
-      <p id="test" class="mt-8"> Need an Account? <router-link id="link_sign-up" to="/sign-up" class="text-blue-500 hover:text-blue-700 font-semibold"> Create an Account </router-link> </p>
-
+      <p class="mt-8">Need an account? <a href="/Sign-Up" class="text-blue-500 hover:text-blue-700 font-semibold">Create an
+              account</a></p>
 
     </div>
   </div>
 
+
+
+
 </section>
 </template>
 
-<script>
-</script>
- 
 

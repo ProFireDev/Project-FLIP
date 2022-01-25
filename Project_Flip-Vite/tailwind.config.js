@@ -4,13 +4,7 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      scale: {
-        '25': '.25',
-        '35': '.35',
-        '80': '.80',
-      }
-    },
+    extend: {},
     colors: {
       transparent: 'transparent',
       current: 'currentColor',

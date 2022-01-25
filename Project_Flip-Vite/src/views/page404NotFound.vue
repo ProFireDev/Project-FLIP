@@ -26,12 +26,10 @@
                     </div>
                     <h2>We're sorry, Page not found!</h2>
                     <p>
-                        The page you are looking for might have been removed had
-                        its name changed or is temporarily unavailable.
+                        The page you are looking for might have been removed,
+                        had it's name changed or is temporarily unavailable.
                     </p>
-                    <button
-                        onclick="window.location.href='/home';"
-                    >
+                    <button onclick="window.location.href='/home';">
                         Back To Homepage
                         <!--Change this to /home to make cleaner maybe? for now the URL is hardcoded-->
                     </button>
@@ -97,7 +95,7 @@ body {
     margin: 0px;
     position: absolute;
     left: 50%;
-    top: -130%;
+    top: -180%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);

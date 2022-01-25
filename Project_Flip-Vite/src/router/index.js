@@ -14,10 +14,10 @@ const routes = [
             // this is the component that will be loaded
             import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
     },
+    //404 error on root url fix v2
     {
-        // fix 404 on root URL path
         path: '/', // this is the path that will be used in the url
-        name: 'home', // this is the name of the route
+        name: 'Home', // this is the name of the route
         component: () =>
             // this is the component that will be loaded
             import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
@@ -25,6 +25,9 @@ const routes = [
     {
         path: '/contact', // this is the path that will be used in the url
         name: 'Contact', // this is the name of the route
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
         component: () =>
             // this is the component that will be loaded
             import(/* webpackChunkName: "about" */ '../views/Contact.vue'), // this is the path to the component being imported

@@ -16,7 +16,7 @@ body {
 <div v-if="$route.fullPath !== '/sign-up'">
     <div id="nav_bar" class="flex justify-around items-center text-gray" v-if="$route.fullPath !== '/login'">
         <!--this is a temp nav bar-->
-        <router-link id="nav_bar_Logo" to="/Home" >
+        <router-link id="nav_bar_Logo" to="/" >
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="
@@ -76,7 +76,7 @@ body {
             </router-link>
             <router-link to="/cart">
                 <img
-                    src="\src\assets\Cart_Icon (2).png"
+                    src="\src\assets\Cart_Icon.png"
                     class="flex justify-end"
                 />
             </router-link>
@@ -95,7 +95,7 @@ body {
           <div class="text-sm text-white font-semibold py-1">
             Copyright © {{date}}
             <a
-              href="https://www.creative-tim.com"
+              href=""
               class="text-white hover:text-gray-400 text-sm font-semibold py-1"
               >Flipping Industries</a
             >
@@ -121,7 +121,7 @@ body {
             </li>
             <li>
               <a
-                href="https://www.creative-tim.com/presentation"
+                href=""
                 class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
                 >About Us</a
               >

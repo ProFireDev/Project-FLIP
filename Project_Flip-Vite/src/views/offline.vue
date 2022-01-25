@@ -12,7 +12,7 @@
             <div class="flex flex-col justify-center items-center">
                 <img
                     class="logo"
-                    src="/img/icons/favicon.ico.ico"
+                    src="/src/assets/icons/favicon.ico"
                     alt="We're sorry, we can't load the Flipping logo right now"
                 />
             </div>

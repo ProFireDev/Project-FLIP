@@ -14,6 +14,14 @@ const routes = [
             // this is the component that will be loaded
             import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
     },
+    //404 error on root url fix v2
+    {
+        path: '/', // this is the path that will be used in the url
+        name: 'Home', // this is the name of the route
+        component: () =>
+            // this is the component that will be loaded
+            import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
+    },
     {
         path: '/contact', // this is the path that will be used in the url
         name: 'Contact', // this is the name of the route

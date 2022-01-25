@@ -36,7 +36,7 @@ body.login  {
     </h1>
 
   <div class="hidden xl:block w-full md:w-1/2 xl:w-2/3 h-screen">
-    <img src="src\assets\Login_Gradient.png" alt="" class="invisble xl:visible h-full object-center">
+    <img src="\src\assets\Login_Gradient.png" alt="" class="invisble xl:visible h-full object-center">
   </div>
 
   <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12

@@ -1,3 +1,4 @@
+
 <style>
 
 .filler{
@@ -48,22 +49,4 @@ background: url(https://user-images.githubusercontent.com/89943490/150007805-0bf
  
 
     <div class="filler"></div>   
-
-</template>
-
-<script>
-export default {
-    beforeCreate: function () {
-        document.body.className = 'shop';
-    }
-}
-</script>
-
-<style>
-
-     body.shop {
-        /*shop */
-    overflow-y: scroll;
-
-    }
-</style>
+<template>

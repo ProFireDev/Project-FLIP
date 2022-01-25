@@ -11,6 +11,8 @@ body {
 </style>
 
 <template>
+<!-- This entire div is the nav bar, it is in app.vue as it is universal for the pages, no repetetive code. 
+      There are 2 divs surrounding the man nav code, as we are unable to make a complex boolean to stop the nav from loading on router /login & /sign-up Janky Fix-->
 <div v-if="$route.fullPath !== '/sign-up'">
     <div id="nav_bar" class="flex justify-around items-center text-gray" v-if="$route.fullPath !== '/login'">
         <!--this is a temp nav bar-->
@@ -21,7 +23,7 @@ body {
                     object-left
                     h-48
                     w-22
-                    scale-125
+                    scale-[1.05]
                     flex
                     justify-start
                     hover:underline
@@ -83,9 +85,9 @@ body {
   </div>
     <router-view/>
 
-      <footer class="absolute w-full bottom-0 bg-[#374151] pb-6">
+      <footer class="fixed w-full bottom-0 bg-[#374151] p-4">
     <div class="container mx-auto px-4">
-      <hr class="mb-6 border-b-1 border-gray-700" />
+      <hr class=" border-b-1 border-gray-700" />
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >

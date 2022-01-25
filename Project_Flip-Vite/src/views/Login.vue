@@ -1,7 +1,7 @@
 <style>
-body  {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+body.login  {
+    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
 }
 </style>
@@ -15,22 +15,28 @@ body  {
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="
                     absolute
-                    top-[35%]
+                    scale-[1.1]
+                    sm:top-[2%]
+                    sm:left-[45%]
+                    sm:h-48
+                    w-22
+
+                    lg:top-[35%]
                     right-[45%]
                     h-48
                     w-22
-                    scale-150
+                    lg:scale-150
                 "
             />
         </router-link>
 
-<section class="flex flex-col md:flex-row h-screen items-center">
-    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl lg:pl-[5%] lg:pb-[5%] md:pl-[2%] md:pb-[3%]">
+<section class="max-w-screen flex flex-col lg:flex-row h-screen items-center">
+    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl pl-[5%] pb-[5%] invisible lg:visible">
         Welcome Back!!
     </h1>
 
   <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
-    <img src="src\assets\Login_Gradient.png" alt="" class="w- h-full object-center">
+    <img src="src\assets\Login_Gradient.png" alt="" class="invisble xl:visible h-full object-center">
   </div>
 
   <div class="bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
@@ -43,7 +49,7 @@ body  {
 
       <form class="mt-6" action="#" method="POST">
         <div>
-          <label class="block text-gray-700">Email Address</label>
+          <label class="block text-gray-700 sm:-max-width">Email Address</label>
           <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required>
         </div>
 
@@ -83,6 +89,11 @@ body  {
 </template>
 
 <script>
+export default {
+    beforeCreate: function () {
+        document.body.className = 'login';
+    }
+}
 </script>
  
 

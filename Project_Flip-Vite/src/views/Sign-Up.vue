@@ -1,14 +1,16 @@
 <style>
-body  {
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+body.signup  {
+    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
 }
 </style>
 <script>
-//Image https://tinyurl.com/linktosolution
-//janky code to hide the nav bar, as "&&" does not work on the App.vue v-if hide nav-bar for a specific route. Unable to make a complex multi statement
-  //document.getElementById("nav_bar").style.display = 'none';
+  export default {
+    beforeCreate: function () {
+        document.body.className = 'signup';
+    }
+}
 </script>
 
 
@@ -18,18 +20,24 @@ body  {
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="
-                    absolute
-                    top-[35%]
+                  absolute
+                    scale-[1.1]
+                    sm:top-[2%]
+                    sm:left-[45%]
+                    sm:h-48
+                    w-22
+
+                    lg:top-[35%]
                     right-[45%]
                     h-48
                     w-22
-                    scale-150
+                    lg:scale-150
                 "
             />
         </router-link>
 
-<section class="flex flex-col md:flex-row h-screen items-center">
-    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl lg:pl-[3%] lg:pb-[3%] md:pl-[2%] md:pb-[3%]">
+<section class="max-w-screen flex flex-col lg:flex-row h-screen items-center">
+    <h1 id="message" class="absolute text-black-700 font-semibold text-4xl pl-[5%] pb-[5%] invisible lg:visible">
         Join Flipping Today!
     </h1>
 
@@ -77,8 +85,7 @@ body  {
             </div>
           </button>
 
-      <p class="mt-8">Need an account? <a href="/Sign-Up" class="text-blue-500 hover:text-blue-700 font-semibold">Create an
-              account</a></p>
+      <p id="test" class="mt-8"> Have an Account? <router-link id="link_sign-up" to="/login" class="text-blue-500 hover:text-blue-700 font-semibold"> Login Now!</router-link> </p>
 
     </div>
   </div>

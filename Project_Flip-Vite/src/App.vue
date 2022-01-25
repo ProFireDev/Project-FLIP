@@ -16,7 +16,7 @@ body {
 <div v-if="$route.fullPath !== '/sign-up'">
     <div id="nav_bar" class="flex justify-around items-center text-gray" v-if="$route.fullPath !== '/login'">
         <!--this is a temp nav bar-->
-        <router-link id="nav_bar_Logo" to="/Home" >
+        <router-link id="nav_bar_Logo" to="/" >
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="

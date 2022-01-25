@@ -10,7 +10,7 @@ body.login  {
 <template>
 
 
-        <router-link id="nav_bar_home" to="/Home">
+        <router-link id="nav_bar_home" to="/">
             <img
                 src="\src\assets\Trans_Home_Page_Logo.png"
                 class="

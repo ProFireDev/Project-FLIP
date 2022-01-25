@@ -56,13 +56,12 @@ body.signup  {
       <form class="mt-6" action="#" method="POST">
         <div>
           <label class="block text-gray-700">Email Address</label>
-          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required>
+          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-[#089ade] placeholder-white text-white mt-2 border focus:border-blue focus:bg-white focus:outline focus:placeholder-[#9ca3af] focus:text-[#9ca3af]" autofocus autocomplete required>
         </div>
 
         <div class="mt-4">
           <label class="block text-gray-700">Password</label>
-          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
-                focus:bg-white focus:outline-none" required>
+          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-[#089ade] placeholder-white text-white mt-2 border focus:border-blue-500 focus:bg-white focus:outline focus:placeholder-[#9ca3af] focus:text-[#9ca3af]" required>
         </div>
 
         <div class="text-right mt-2">

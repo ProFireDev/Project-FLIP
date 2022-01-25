@@ -76,7 +76,7 @@ body {
             </router-link>
             <router-link to="/cart">
                 <img
-                    src="\src\assets\Cart_Icon (2).png"
+                    src="\src\assets\Cart_Icon.png"
                     class="flex justify-end"
                 />
             </router-link>

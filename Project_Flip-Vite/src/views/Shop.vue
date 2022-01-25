@@ -1,21 +1,5 @@
 <style>
 
-.filler{
-position: absolute;
-
-bottom: -30%;
-
-width: 100%;
-height: 100%;
-overflow: auto;
-
-z-index: -500;
-
-background-repeat: no-repeat;
-
-background: url(https://user-images.githubusercontent.com/89943490/150007805-0bf19e35-eeff-4540-9533-1474e90ef40e.jpg);
-
-}
 </style>
 
 <template>
@@ -33,10 +17,10 @@ background: url(https://user-images.githubusercontent.com/89943490/150007805-0bf
          <div id="fillers">
             <img id="background1" src="\src\assets\Shop_Filler_Sky.png" class="">   
 
-                <div id="Janky_Product_Cards" class="absolute flex justify-between items-center w-screen scale-75"> 
-                    <img src="\src\assets\Product Temp 4.png" class="">
-                    <img src="\src\assets\Product Temp 2.png" class="">
-                    <img src="\src\assets\Product Temp 3.png" class="">
+                <div id="Janky_Product_Cards" class="absolute flex justify-between items-center w-screen scale-[.70]"> 
+                    <img src="\src\assets\Product_Temp_A.png" class="">
+                    <img src="\src\assets\Product_Temp_B.png" class="pb-[2%]">
+                    <img src="\src\assets\Product_Temp_C.png" class="">
                 </div>
 
             <img id="background2" src="\src\assets\Shop_Filler_2.png">  

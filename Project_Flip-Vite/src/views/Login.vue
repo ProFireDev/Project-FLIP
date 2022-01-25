@@ -35,7 +35,7 @@ body.login  {
         Welcome Back!!
     </h1>
 
-  <div class="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
+  <div class="hidden xl:block w-full md:w-1/2 xl:w-2/3 h-screen">
     <img src="src\assets\Login_Gradient.png" alt="" class="invisble xl:visible h-full object-center">
   </div>
 
@@ -50,13 +50,12 @@ body.login  {
       <form class="mt-6" action="#" method="POST">
         <div>
           <label class="block text-gray-700 sm:-max-width">Email Address</label>
-          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none" autofocus autocomplete required>
+          <input type="email" name="" id="" placeholder="Enter Email Address" class="w-full px-4 py-3 rounded-lg bg-[#089ade] placeholder-white text-white mt-2 border focus:border-blue focus:bg-white focus:outline focus:placeholder-[#9ca3af] focus:text-[#9ca3af]" autofocus autocomplete required>
         </div>
 
         <div class="mt-4">
           <label class="block text-gray-700">Password</label>
-          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500
-                focus:bg-white focus:outline-none" required>
+          <input type="password" name="" id="" placeholder="Enter Password" minlength="6" class="w-full px-4 py-3 rounded-lg bg-[#089ade] placeholder-white text-white mt-2 border focus:border-blue-500 focus:bg-white focus:outline focus:placeholder-[#9ca3af] focus:text-[#9ca3af]" required>
         </div>
 
         <div class="text-right mt-2">

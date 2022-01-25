@@ -15,14 +15,14 @@ const routes = [
             import(/* webpackChunkName: "about" */ '../views/Home.vue'), // this is the path to the component being imported
     },
     {
-        path: '/about', // this is the path that will be used in the url
-        name: 'About', // this is the name of the route
+        path: '/contact', // this is the path that will be used in the url
+        name: 'Contact', // this is the name of the route
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () =>
             // this is the component that will be loaded
-            import(/* webpackChunkName: "about" */ '../views/About.vue'), // this is the path to the component being imported
+            import(/* webpackChunkName: "about" */ '../views/Contact.vue'), // this is the path to the component being imported
     },
     {
         path: '/shop',
@@ -55,12 +55,13 @@ const routes = [
         component: () =>
             import(/* webpackChunkName: "build" */ '../views/Build.vue'),
     },
-    /*{
-        path: '/signup',
-        name: 'Signup',
+
+    {
+        path: '/sign-up',
+        name: 'Sign-Up',
         component: () =>
-            import(/* webpackChunkName: "signup" */ // '../views/Signup.vue'),
-    //},
+            import(/* webpackChunkName: "build" */ '../views/Sign-Up.vue'),
+    },
     /*{
         path: '/signin',
         name: 'Signin',

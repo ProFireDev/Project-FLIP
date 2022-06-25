@@ -1,5 +1,10 @@
 # Project-FLIP
 
+> ⚠ this project has been moved again to [Flipping-Site](https://github.com/Flipping-Industries/Flipping-Site) underneath the flipping-Industries organization.
+> this repo is no longer maintained.
+
+#
+
 For setting up the dev environment, see the [Installation and getting started.md](https://github.com/JCS-Computer-Science/project-module-1-project-flip/blob/PFD-Dev/Docs/Installation%20and%20getting%20started.md) in in the docs folder.
 
 ## Welcome!
